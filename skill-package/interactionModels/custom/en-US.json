@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "number trivia",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "wait",
+            "hang on",
+            "cancel",
+            "wait hang on",
+            "never mind",
+            "actually no"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what is this",
+            "how do you work",
+            "how does this work",
+            "how do i use this"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "RandFactIntent",
+          "slots": [
+            {
+              "name": "num_arg",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "tell me something about the number {num_arg}",
+            "tell me something about {num_arg}",
+            "tell me something random",
+            "tell me a random number fact",
+            "tell me a fact about the number {num_arg}",
+            "tell me a fact about {num_arg}",
+            "tell me another number fact {num_arg}",
+            "tell me something about a number",
+            "tell me a number fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "go back"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}

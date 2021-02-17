@@ -1,0 +1,65 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "get number trivia",
+          "examplePhrases": [
+            "Alexa, start number trivia",
+            "tell me about the number 7",
+            "tell me something random about a number"
+          ],
+          "keywords": [
+            "number",
+            "trivia"
+          ],
+          "name": "number trivia",
+          "description": "you can ask Alexa for number trivia or trivia about a specific number",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:661659689520:function:b90df734-6f94-4493-8903-e6a91f0fd0fc:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:661659689520:function:b90df734-6f94-4493-8903-e6a91f0fd0fc:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:661659689520:function:b90df734-6f94-4493-8903-e6a91f0fd0fc:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:661659689520:function:b90df734-6f94-4493-8903-e6a91f0fd0fc:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
